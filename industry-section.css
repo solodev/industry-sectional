@@ -19,61 +19,18 @@
 p {
     color: #7f8387;
     font-size: 1.8rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .paddingBottom45 {
     padding-bottom: 45px;
 }
-p {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    /* color: #777; */
-}
-@media screen and (min-width: 991px)
-.innerContainer .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.item {
-    display: block;
-    position: relative;
-    margin: 15px 0;
-    z-index: 1;
-}
 .fa {
   color: white;
   font-size: 45px;
-}
-.item.v_associations .inner {
-    background: #ae041b  no-repeat center center;
-}
-.ct-tabs-outer .item h2 {
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.home-page-wrapper h2 {
-    margin-bottom: 20px;
-    font-size: 4.2rem;
-    color: #1d2127;
-    text-align: center;
-}
-.item.v_education .inner {
-    background: #38b3e1 no-repeat center center;
-}
-.item.v_entertainment .inner {
-    background: #fa7c01 no-repeat center center;
-}
-.item.v_finance .inner {
-    background: #a7c53b no-repeat center center;
-}
-.item.v_government .inner {
-    background: #7f75a7 no-repeat center center;
-}
-.item.v_healthcare .inner {
-    background: #0b71a9 no-repeat center center;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
 }
 .ct-tabs-outer .inner:before {
     content: "";
@@ -89,6 +46,37 @@ p {
     cursor: pointer;
     -webkit-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
+}
+.item.v_associations .inner {
+    background: #ae041b  no-repeat center center;
+}
+.item {
+    display: block;
+    position: relative;
+    margin: 15px 0;
+    z-index: 1;
+}
+.ct-tabs-outer .item h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.item.v_education .inner {
+    background: #38b3e1 no-repeat center center;
+}
+.item.v_entertainment .inner {
+    background: #fa7c01 no-repeat center center;
+}
+.item.v_finance .inner {
+    background: #a7c53b no-repeat center center;
+}
+.item.v_government .inner {
+    background: #7f75a7 no-repeat center center;
+}
+.item.v_healthcare .inner {
+    background: #0b71a9 no-repeat center center;
 }
 .v_associations:hover .inner, .btn.btn-darkred:hover {
     background-color: #7c0313;
