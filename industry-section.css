@@ -1,0 +1,110 @@
+.ct-u-sectionGrey {
+    background-color: rgba(235, 235, 235, 0.4);
+}
+.paddingSection {
+    padding: 60px 15px;
+}
+.innerContainer {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.home-page-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    color: #1d2127;
+    text-align: center;
+}
+p {
+    color: #7f8387;
+    font-size: 1.8rem;
+}
+.paddingBottom45 {
+    padding-bottom: 45px;
+}
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* color: #777; */
+}
+@media screen and (min-width: 991px)
+.innerContainer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.item {
+    display: block;
+    position: relative;
+    margin: 15px 0;
+    z-index: 1;
+}
+.fa {
+  color: white;
+  font-size: 45px;
+}
+.item.v_associations .inner {
+    background: #ae041b  no-repeat center center;
+}
+.ct-tabs-outer .item h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.home-page-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 4.2rem;
+    color: #1d2127;
+    text-align: center;
+}
+.item.v_education .inner {
+    background: #38b3e1 no-repeat center center;
+}
+.item.v_entertainment .inner {
+    background: #fa7c01 no-repeat center center;
+}
+.item.v_finance .inner {
+    background: #a7c53b no-repeat center center;
+}
+.item.v_government .inner {
+    background: #7f75a7 no-repeat center center;
+}
+.item.v_healthcare .inner {
+    background: #0b71a9 no-repeat center center;
+}
+.ct-tabs-outer .inner:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+.ct-tabs-outer .inner {
+    width: 100%;
+    height: 175px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+.v_associations:hover .inner, .btn.btn-darkred:hover {
+    background-color: #7c0313;
+}
+.v_education:hover .inner, .btn.btn-lightblue:hover {
+    background-color: #1e9ac8;
+}
+.v_entertainment:hover .inner, .btn.btn-lightorange:hover {
+    background-color: #c76301;
+}
+.v_finance:hover .inner, .btn.btn-lightgreen:hover {
+    background-color: #869e2f;
+}
+.v_government:hover .inner, .btn.btn-purple:hover {
+    background-color: #655b8e;
+}
+.v_healthcare:hover .inner, .btn.btn-darkblue:hover {
+    background-color: #085179;
+}
